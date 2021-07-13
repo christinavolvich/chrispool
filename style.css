@@ -1,10 +1,60 @@
-title {
+.main-content__title {
   font-family: 'Roboto', sans-serif;
+  color: auto;
 }
-h1 {
-  font-family: 'Oswald', sans-serif;
+body {
+    margin: 0;
 }
-p {
-  font-family: 'Roboto', sans-serif;
-  color: orange;
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+.header {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .menu {
+    display: inline-block;
+}
+
+.logo {
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
+  position: relative;
+}
+.logo__circle {
+ width: 28px;
+ height: 28px;
+ position: absolute;
+ left: 0;
+ top: 50%;
+ transform: translateY(-50%);
+ border-radius: 50%;
+}
+
+.logo__circle_color_blue {
+ left: 8px;
+ top: 56%;
+ opacity: .7;
+ background: #C8DBFB;
+}
+
+.logo__circle_color_dark-blue {
+  opacity: .7;
+  background: #0056EC;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu__item {
+    padding: 0 13px;
+}
+.menu__item:last-child {
+    padding-right: 0;
 }
